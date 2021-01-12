@@ -1,15 +1,34 @@
 # ExpressJS in Typescript
-This is just a basic example on how to use typescript in express
+This is just a basic example on how to use typescript in express.
+
+## Installation
+
+Simply run
+```bash
+$ npm install 
+```
+
+or via Yarn.
+```bash
+$ yarn 
+```
+
 
 # Running in development
-`npm run dev`
+```bash
+$ npm run dev
+```
 
-press `rs` inside the terminal to manually restart the app
+Type `rs` inside the terminal to manually restart the app.
 
 more information [ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
 
 # Production
-`npm run build`
+
+```bash
+$ npm run build
+```
+
 
 This will build all files inside `dist` folder 
 
