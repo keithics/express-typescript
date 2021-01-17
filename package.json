@@ -2,9 +2,11 @@
   "name": "expressts",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "tsc  --allowJs",
-    "dev": "ts-node-dev --respawn --transpile-only --rs --clear ./server/server.ts"
+    "dev": "ts-node-dev --respawn --transpile-only --rs --clear ./server/server.ts",
+    "test": "yarn mocha  --require ts-node/register --require source-map-support/register ./test/index.spec.ts --exit"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,6 +17,11 @@
     "pug": "2.0.0-beta11"
   },
   "devDependencies": {
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1",
+    "supertest": "^6.1.1",
     "ts-node": "^9.1.1",
     "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.3"
