@@ -1,5 +1,6 @@
+![ExpressTS](https://github.com/keithics/express-typescript/workflows/Node.js%20CI/badge.svg)
 # ExpressJS in Typescript
-This is just a basic example on how to use typescript in express.
+This is a basic example on how to use typescript in express. Heavily inspired by [Microsoft Typescript Node Starter][https://github.com/microsoft/TypeScript-Node-Starter]
 
 ## Installation
 
@@ -57,3 +58,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+
+[https://github.com/microsoft/TypeScript-Node-Starter]: https://github.com/microsoft/TypeScript-Node-Starter
